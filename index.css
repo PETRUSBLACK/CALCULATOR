@@ -2,12 +2,13 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	
 }
-#container{
+#container{ 
+	float: left;
 	height: 1000px;
 	width: 550px;
 	/*background-image: url(ground.jpeg);*/
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(ground.jpeg);
-	margin: 20px auto;
+	margin: 20px 59px;
 }
 #calculator{
 	width: 320px;
@@ -15,9 +16,9 @@ body{
 	background-color: #eaedef;
 	margin: 0 auto;
 	top: 20px;
-	position: relative;
+	position: sticky;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 200px 0 rgba(0, 0, 0, 0.19);
 }
 #result{
 	height: 120px;
@@ -27,26 +28,26 @@ body{
 	height: 20px;
 	margin: 0 20px;
 	padding-top: 20px;
-	font-size: 15px;
+	font-size: 105px;
 	color: #919191;
 }
 #output{
 	text-align: right;
-	height: 60px;
-	margin: 10px 20px;
+	height: 6px;
+	margin: 100px 2px;
 	font-size: 30px;
 }
 #keyboard{
 	height: 400px;
 }
 .operator, .number, .empty{
-	width: 50px;
-	height: 50px;
-	margin: 15px;
+	width: 500px;
+	height: 5px;
+	margin: 99px;
 	float: left;
 	border-radius: 50px;
 	border-width: 0;
-	font-weight: bold;
+	font-weight: 200;
 	font-size: 15px;
 }
 .number, .empty{
